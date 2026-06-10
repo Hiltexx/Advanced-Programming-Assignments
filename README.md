@@ -1,9 +1,25 @@
-# Advanced Programming Assignment - 1
+# Advanced Programming Assignment - 10
 
 ## Question
 
-Write a C program to analyze time complexities in constant time, linear time and quadratic time. Increase the size of input to check the time consumed.
+Design a student system in Python with:
+
+Address class (street, city, zipCode)
+Student class with name, age, Address, and course list
+Store age as a protected attribute and control it using @property
+Methods: add_course() and display()
+
+Extend it with:
+
+ScholarshipStudent (add scholarshipAmount and override display())
+
+Your implementation should clearly show:
+
+Composition (Student HAS-A Address)
+Proper data validation using @property (age must be valid)
+Inheritance and overriding (use super() in display)
+Understanding of mutable behavior (course list updates persist)
 
 ## Files
 
-- assignment1.c
+- assignment10.py
