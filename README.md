@@ -1,9 +1,8 @@
-# Advanced Programming Assignment - 1
+# Advanced Programming Assignment - 15
 
 ## Question
 
-Write a C program to analyze time complexities in constant time, linear time and quadratic time. Increase the size of input to check the time consumed.
-
+Write a multithreaded C program using POSIX threads (pthread) where multiple threads increment a shared global counter variable many times. First implement the program without any synchronization and observe the incorrect output caused by a race condition. Then modify the program using a mutex (pthread_mutex_t) to protect the critical section and produce the correct final counter value. Your program must demonstrate thread creation using pthread_create(), synchronization using pthread_mutex_lock() and pthread_mutex_unlock(), and thread completion using pthread_join(). Also explain briefly why the race condition occurs and how the mutex solves the problem.
 ## Files
 
-- assignment1.c
+- assignment15.c
