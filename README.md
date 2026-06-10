@@ -1,9 +1,26 @@
-# Advanced Programming Assignment - 1
+# Advanced Programming Assignment - 9
 
 ## Question
 
-Write a C program to analyze time complexities in constant time, linear time and quadratic time. Increase the size of input to check the time consumed.
+Design a banking system in Java with:
 
+A base class Account containing private fields: accountNumber, ownerName, balance
+Provide getters/setters and at least two constructors (use constructor chaining)
+Implement deposit() and withdraw() with proper validation
+Add a display() method
+
+Extend it with:
+
+SavingsAccount (add interestRate, override display() and show interest)
+CurrentAccount (add overdraftLimit, restrict withdrawals accordingly)
+
+Your implementation should clearly show:
+
+Proper encapsulation (no direct field access)
+Use of constructor overloading and chaining (this(...))
+Inheritance and method overriding (use @Override and super)
+Polymorphism by storing objects in an Account reference list and calling display()
+Basic validation/debugging (e.g., assert or exception for invalid operations)
 ## Files
 
-- assignment1.c
+- assignment9.java
