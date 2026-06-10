@@ -1,9 +1,24 @@
-# Advanced Programming Assignment - 1
+# Advanced Programming Assignment - 11
 
 ## Question
 
-Write a C program to analyze time complexities in constant time, linear time and quadratic time. Increase the size of input to check the time consumed.
+Design a library system in Java or Python with:
 
+A base/abstract class LibraryItem (common fields like title, year)
+An abstract/common method displayInfo()
+
+Create subclasses such as:
+
+Book (add author)
+DVD (add duration/genre)
+
+Your implementation should clearly show:
+
+Use of abstraction (common structure in base class)
+Method overriding in subclasses
+Polymorphism using a collection of LibraryItem objects
+One additional feature:
+constructor overloading / default arguments OR class/static counter
 ## Files
 
-- assignment1.c
+- assignment11.java
