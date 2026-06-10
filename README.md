@@ -1,9 +1,10 @@
-# Advanced Programming Assignment - 1
+# Advanced Programming Assignment - 3
 
 ## Question
 
-Write a C program to analyze time complexities in constant time, linear time and quadratic time. Increase the size of input to check the time consumed.
+Write a Java program using ArrayList to store book titles.
+Add at least 5 books and search for books whose title contains a given word
 
 ## Files
 
-- assignment1.c
+- assignment3.java
