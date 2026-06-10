@@ -1,6 +1,9 @@
-Advanced Programming Assignment - 
-Question
-Write a c program for three different operations as stated in question 1 to analyze the space complexity.
+# Advanced Programming Assignment - 1
 
-Files
-assignment2.c
+## Question
+
+Write a C program to analyze time complexities in constant time, linear time and quadratic time. Increase the size of input to check the time consumed.
+
+## Files
+
+- assignment1.c
